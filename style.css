@@ -30,7 +30,7 @@ button{
     margin-bottom: 25px;
     text-align: center;
 }
-span{
+.single{
     color: #E55473;
 }
     /* --------------- header_section ----------- */
@@ -83,6 +83,7 @@ main{
 .hot_deal > img{
     padding: 50px 80px;
 }
+/* ------------------- hot_deal_section_end_here ---------------------- */
 
 /* --------------------- instagram_section_start_here --------------- */
 .instagram_photo{
@@ -92,6 +93,7 @@ main{
     width: 250px;
     margin-left: 20px;
 }
+/* --------------------- instagram_section_end_here --------------- */
 
 /* ----------------------- subscribe_section_start_here ------------------ */
 .subscribe_container{
@@ -113,4 +115,23 @@ input{
 }
 input:focus{
     outline: none;
+}
+/* ----------------------- subscribe_section_end_here ------------------ */
+
+footer{
+  padding: 60px 50px;
+  background: #111010;
+  text-align: center;
+}
+footer  h3{
+    color: white;
+}
+footer h3 > span{
+    color: #E55473
+}
+footer :nth-child(2){
+    color: rgba(255, 255, 255, 0.90);
+}
+footer :last-child{
+    color: rgba(255, 255, 255, 0.40);
 }
