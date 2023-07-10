@@ -10,14 +10,17 @@
 button{
     color: #FFF;
     font-size: 20px;
-    font-weight: 700;
-    padding: 20px 43px;
+    font-weight: 500;
+    padding: 12px 25px;
     border: 0;
     background: #E55473;
     border-radius: 8px;
+    cursor: pointer;
 }
 .title{
     margin-bottom: 25px;
+    font-size: 2rem;
+    text-align: center;
 }
 .description{
     color: rgba(39, 39, 39, 0.60);
@@ -25,6 +28,7 @@ button{
     font-weight: 400;
     line-height: 30px;
     margin-bottom: 25px;
+    text-align: center;
 }
 span{
     color: #E55473;
@@ -32,14 +36,14 @@ span{
     /* --------------- header_section ----------- */
 /* ---------------- banner_section_start_here ----------------------- */
 
-.header{
+header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 50px 120px 130px 120px;
     background: rgba(229, 84, 115, 0.10);
 }
-.header > img{
+header > img{
     width: 450px;
 }
 .header_content{
@@ -48,6 +52,13 @@ span{
 .header_content > h1{
     color: #272727;
     font-size: 4.4rem;
+}
+.header_content > p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 25px;
 }
 
 /* ---------------- banner_section_end_here ----------------------- */
@@ -62,15 +73,44 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    margin-bottom: 130px;
 }
 .hot_deal_content{
     padding: 100px 100px;
     text-align: center;
 }
-.hot_deal_content > h3{
-    font-size: 2rem;
-}
+
 .hot_deal > img{
     padding: 50px 80px;
+}
+
+/* --------------------- instagram_section_start_here --------------- */
+.instagram_photo{
+    margin-bottom: 130px;
+}
+.instagram_photo > img{
+    width: 250px;
+    margin-left: 20px;
+}
+
+/* ----------------------- subscribe_section_start_here ------------------ */
+.subscribe_container{
+    padding: 40px 20px;
+}
+
+.subscribe{
+    background-image: url('Flower asset/Rectangle 9.png');
+    padding: 50px 50px;
+    text-align: center;
+    
+    
+}
+input{
+    border: 0;
+    width: 50%;
+    padding: 16px 30px;
+    margin-right: 10px;
+}
+input:focus{
+    outline: none;
 }
