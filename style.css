@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lato;
+}
+
+button{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 43px;
+    border: 0;
+    background: #E55473;
+    border-radius: 8px;
+}
+.title{
+    margin-bottom: 25px;
+}
+.description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+span{
+    color: #E55473;
+}
+    /* --------------- header_section ----------- */
+/* ---------------- banner_section_start_here ----------------------- */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 120px 130px 120px;
+    background: rgba(229, 84, 115, 0.10);
+}
+.header > img{
+    width: 450px;
+}
+.header_content{
+    padding: 100px 50px;
+}
+.header_content > h1{
+    color: #272727;
+    font-size: 4.4rem;
+}
+
+/* ---------------- banner_section_end_here ----------------------- */
+
+
+          /* --------------- main_section --------------- */
+/* ------------------- hot_deal_section_start_here ---------------------- */
+main{
+    padding: 0 120px 130px 120px;
+}
+.hot_deal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.hot_deal_content{
+    padding: 100px 100px;
+    text-align: center;
+}
+.hot_deal_content > h3{
+    font-size: 2rem;
+}
+.hot_deal > img{
+    padding: 50px 80px;
+}
