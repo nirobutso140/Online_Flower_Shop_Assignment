@@ -18,7 +18,7 @@ button{
     cursor: pointer;
 }
 .title{
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     font-size: 2rem;
     text-align: center;
 }
@@ -27,12 +27,10 @@ button{
     font-size: 16px;
     font-weight: 400;
     line-height: 30px;
-    margin-bottom: 25px;
+    margin-bottom: 24px;
     text-align: center;
 }
-.single{
-    color: #E55473;
-}
+
     /* --------------- header_section ----------- */
 /* ---------------- banner_section_start_here ----------------------- */
 
@@ -42,6 +40,7 @@ header{
     align-items: center;
     padding: 50px 120px 130px 120px;
     background: rgba(229, 84, 115, 0.10);
+    margin-bottom: 130px;
 }
 header > img{
     width: 450px;
@@ -52,6 +51,7 @@ header > img{
 .header_content > h1{
     color: #272727;
     font-size: 4.4rem;
+    margin-bottom: 25px;
 }
 .header_content > p{
     color: rgba(39, 39, 39, 0.60);
@@ -64,7 +64,38 @@ header > img{
 /* ---------------- banner_section_end_here ----------------------- */
 
 
-          /* --------------- main_section --------------- */
+              /* --------------- main_section --------------- */
+/* ------------------- Featured_Flowers_section_start_here ---------------- */
+.featured_Flowers{
+    margin-bottom: 130px;
+}
+.featured_flowers_photo{
+    text-align: center;
+}
+.flower{
+    margin: 0 15px;
+    width: 280px;
+    height: 360px;
+    padding: 65px 25px 0 25px;
+    background-color: aqua;
+    border-radius: 300px 300px 0px 0px;
+}
+.flower_1{
+    background: rgba(167, 33, 98, 0.15);
+}
+.flower_2{
+    background: rgba(5, 151, 160, 0.15);
+}
+.flower_3{
+    background: rgba(71, 125, 17, 0.15);
+}
+
+
+
+/* ------------------- Featured_Flowers_section_end_here ---------------- */
+
+
+
 /* ------------------- hot_deal_section_start_here ---------------------- */
 main{
     padding: 0 120px 130px 120px;
@@ -88,10 +119,11 @@ main{
 /* --------------------- instagram_section_start_here --------------- */
 .instagram_photo{
     margin-bottom: 130px;
+    text-align: center;
 }
 .instagram_photo > img{
     width: 250px;
-    margin-left: 20px;
+    margin: 0 10px;
 }
 /* --------------------- instagram_section_end_here --------------- */
 
@@ -118,6 +150,9 @@ input:focus{
 }
 /* ----------------------- subscribe_section_end_here ------------------ */
 
+
+/* ----------------------- footer_section_start_here ------------------ */
+
 footer{
   padding: 60px 50px;
   background: #111010;
@@ -126,12 +161,15 @@ footer{
 footer  h3{
     color: white;
 }
-footer h3 > span{
+footer > h3 > span{
     color: #E55473
 }
 footer :nth-child(2){
     color: rgba(255, 255, 255, 0.90);
+    line-height: 26px
 }
 footer :last-child{
     color: rgba(255, 255, 255, 0.40);
 }
+
+/* ----------------------- footer_section_end_here ------------------ */
